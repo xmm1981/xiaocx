@@ -1,0 +1,13 @@
+{
+  "pages": [
+    "pages/classic/classic"
+  ],
+  "window":{
+    "navigationBarBackgroundColor":"#CCCC00",
+    "navigationBarTitleText":"AutoXMM",
+    "navigationBarTextStyle":"black",
+    "navigationStyle":"default",
+    "backgroundColor":"#ffffff",
+    "enablePullDownRefresh":false
+  }
+}
