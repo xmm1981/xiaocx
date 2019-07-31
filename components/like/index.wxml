@@ -1,0 +1,4 @@
+<view bind:tap="onLike" class="container">
+  <image src="images/like.png" />
+  <text>9</text>
+</view>

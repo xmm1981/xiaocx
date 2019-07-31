@@ -1,21 +1,17 @@
 /* pages/classic/classic.wxss */
 
-.chunk {
-  display: inline-block;
-  width: 100px;
-  height: 100px;
-}
+/*注意学习：
+  flex flexible box 弹性合子 
+    view 100% height 自适应
 
-/*   20190706-001*/
+    flex-direction: row column row-reverse column-reverse
+    确定主轴是row(水平)还是column(垂直) 水平或垂直排列 颠倒或倒序
 
-.color1 {
-  background-color: brown;
-}
+    justify-content: flex-start  flex-end  center space-between space-around
+    指的是主轴方向上的 控制元数的左和右 居中 分列平均 等距分布
+    
+    align-items: 
+    指的是交叉轴方向上的 
 
-.color2 {
-  background-color: aqua;
-}
+flex container    flex item */
 
-.color3 {
-  background-color: blue;
-}
