@@ -12,7 +12,15 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-
+    wx.request({
+      url:'http://bl.7yue.pro/v1/classic/latest',
+      header:{
+        appkey:'RdshydjBvcYZhMZC'
+      },
+      success:function(res){
+        console.log(res)
+      }
+    })
   },
 
   /**
